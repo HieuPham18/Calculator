@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.calculator {
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__number {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input__calculation {
+    display: flex;
+    flex-direction: column;
+}
+
+.result__number {
+    color: rgb(117, 112, 112);
+    font-weight: 600;
+}
+
+.result__calculation {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.result__number,
+.result__calculation {
+    overflow: hidden;
+    text-align: right;
+}
+
+.btn {
+    width: 60px;
+    height: 80px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #e8e8e8;
+    outline: 2px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.btn-cal {
+    background-color: #ccc;
+}
+
+.btn-rs {
+    background-color: #98FB98;
+}
+
+.btn-rs:hover {
+    background-color: #50C878;
+}
+
+.btn-clear{
+    font-size: 17px;
+    font-weight: 800;
+}
